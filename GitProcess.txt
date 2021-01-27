@@ -1,0 +1,9 @@
+# start the repo
+git init
+
+# check status
+git status
+
+# commit files (local copy)
+git add .       <- stage all the files for commiting
+git commit -m 'some message'   <- create the commit
