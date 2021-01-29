@@ -81,7 +81,7 @@ function createTask() {
     startDate,
     dueDate,
     description,
-    status
+    parseInt(status)
   );
 
   // send obj to server
@@ -103,7 +103,7 @@ function createTask() {
 
 function fetchData() {
   $.ajax({
-    url: serverURL + "/tasks",
+    url: "/api/getTasks",
     type: "GET",
     success: function (res) {
       console.log("Response", res);

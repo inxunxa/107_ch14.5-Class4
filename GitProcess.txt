@@ -7,3 +7,11 @@ git status
 # commit files (local copy)
 git add .       <- stage all the files for commiting
 git commit -m 'some message'   <- create the commit
+
+
+
+# first time you push
+ create the repo
+ set the repo url
+ authenticate git -> github
+ push
