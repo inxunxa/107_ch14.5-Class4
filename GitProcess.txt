@@ -12,6 +12,10 @@ git commit -m 'some message'   <- create the commit
 
 # first time you push
  create the repo
- set the repo url
+ set the repo url   (git remote add origin <URL>)
  authenticate git -> github
- push
+ push (git push -u origin master)
+
+
+ # next time you want to push:
+ git push
