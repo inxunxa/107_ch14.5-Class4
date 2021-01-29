@@ -18,4 +18,6 @@ git commit -m 'some message'   <- create the commit
 
 
  # next time you want to push:
+ git add .
+ git commit -m 'some message' 
  git push
